@@ -1,0 +1,36 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>Hey 👋🏻 Welcome to CODECULT.</h1>
+
+      <p>
+        CODECULT is a blog about web development, JavaScript and anything else I
+        find interesting in the tech world.
+      </p>
+      <p>
+        A little background about me, I'm Luke a Frontend developer who dabbles
+        in a little bit of everything from backend to devops. I'm currently
+        working at <a href="https://www.kroo.com/">Kroo</a> as a Web developer
+        building out a design system and working on their website. I currenly
+        live in Manchetser in the UK.
+      </p>
+      <p>
+        Currently I'm mostly interested in talking about design systems, React
+        and JavaScript mostly so expect lots of content about that 🎉
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
