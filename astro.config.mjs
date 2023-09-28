@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://example.com',
   integrations: [mdx(), sitemap()],
-  output: "server",
+  output: "static",
   adapter: vercel({
 		webAnalytics: true
 	})
