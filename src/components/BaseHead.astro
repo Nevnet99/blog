@@ -57,18 +57,3 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-87QVFJP670"
-></script>
-<script>
-  // @ts-ignore
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    // @ts-ignore
-    dataLayer.push(arguments);
-  }
-  // @ts-ignore
-  gtag("js", new Date());
-
-  // @ts-ignore
-  gtag("config", process.env.GA);
-</script>
