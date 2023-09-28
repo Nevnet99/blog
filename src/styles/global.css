@@ -23,6 +23,7 @@
   :root {
 		--background: #FFF;
 		--secondaryBackground: #f5f5f5;
+		--codeBackground: #f5f5f5;
 		--text: #000;
 	}
 }
@@ -31,6 +32,7 @@
   :root {
 		--background: #000;
 		--secondaryBackground: #1e1e1e;
+		--codeBackground: #1e1e1e;
 		--text: #FFF;
 	}
 }
@@ -146,7 +148,7 @@ img {
 
 code {
 	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
+	background-color: var(--codeBackground);
 	border-radius: 2px;
 }
 

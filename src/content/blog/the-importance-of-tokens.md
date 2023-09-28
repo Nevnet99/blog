@@ -11,7 +11,9 @@ Design tokens are a shareable format between Design, Development and other tooli
 
 A token can be as simple as a HEX value for a color or something more complex like a specific easing function you use for animations or a font size. Realistically a token can be anything you want it to be as long as it's a value you would reuse across your application.
 
-A token abstracts away the value and replaces it with a name, for example instead of using `#000000` for the background of your website, you would use `dark-primary-background`. This makes it easier to change the value of the token without having to change it in multiple places as well as knowing exactly what you will effect, in this case it would be the primary background used in the application for a user that prefers dark mode.
+A token abstracts away the value and replaces it with a name, for example instead of using `#000000` for the background of your website, you would use <br/>`dark-primary-background`.  
+
+This makes it easier to change the value of the token without having to change it in multiple places as well as knowing exactly what you will effect, in this case it would be the primary background used in the application for a user that prefers dark mode.
 
 The most important benefit from using tokens is you have a single source of truth for your design system. This means that you can use the same tokens across your entire application and know that they will be consistent, without tokens you would have to remember the values you used for each color, font size, etc. and hope that you don't make a mistake (which is pretty common if you're building a large application).
 
